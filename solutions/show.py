@@ -1,3 +1,16 @@
+"""
+Um grupo de amigos quer comprar ingressos para um show da sua banda preferida.
+O show acontece num teatro que tem N filas de assentos, cada fila com M
+assentos. Os amigos querem comprar ingressos de forma que os assentos dos
+amigos:
+• sejam todos na mesma fila,
+• sejam contíguos (ou seja, um vizinho ao outro) e
+• sejam na fila mais próxima possível do palco.
+Dado um mapa descrevendo os assentos disponíveis, ajude os amigos a encontrarem
+os ingressos de acordo com as condições acima
+"""
+
+
 def is_seat_empty(seat: int) -> bool:
     return seat == 0
 

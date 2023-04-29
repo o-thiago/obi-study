@@ -1,3 +1,17 @@
+"""
+Duas amigas estão na fila para comprar ingressos para uma sessão de cinema.
+O preço dos ingressos, em Reais, é dado na tabela abaixo:
+
+Idade Preço
+até 17 anos 15
+18 a 59 anos 30
+60 anos ou mais 20
+
+Dadas as idades das amigas, escreva um programa para calcular o total a ser
+pago pelos dois ingressos
+"""
+
+
 def get_total_cost(age: int):
     if age < 18:
         return 15
