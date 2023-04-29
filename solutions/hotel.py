@@ -1,4 +1,3 @@
-
 def solve(daily_cost: int, daily_increase: int, day_arrived: int):
     increase_by = (min(15, day_arrived) - 1) * daily_increase
     effective_daily_cost = daily_cost + increase_by
